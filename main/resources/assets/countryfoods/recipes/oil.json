@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "S",
+        "M"
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:double_plant",
+            "data": 0
+        },
+        "M": {
+            "item": "countryfoods:mortar_and_pestle",
+            "data": 32767
+        }
+    },
+    "result": {
+        "item": "countryfoods:oil",
+        "count": 1
+    }
+}

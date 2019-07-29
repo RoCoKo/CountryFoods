@@ -1,0 +1,37 @@
+//CreativeTab
+itemGroup.countryfoodstab=Country Foods
+
+//Foods
+item.kebab.name=Kebab
+item.hamburger.name=Hamburger
+item.tomato.name=Tomato
+item.lettuce.name=Lettuce
+tile.cheesecake.name=Cheesecake
+
+//Blocks
+tile.salt_block.name=Salt Block
+tile.salt_ore.name=Salt Ore
+
+//Plants
+tile.tomato.name=Tomato
+
+//Seeds
+item.tomato_seeds.name=Tomato Seeds
+item.lettuce_seeds.name=Lettuce Seeds
+
+//Tools
+item.knife.name=Knife
+item.rolling_pin.name=Rolling Pin
+item.mortar_and_pestle.name=Mortar and Pestle
+
+//Food Materials
+item.raw_beef_slice.name=Raw Beef Slice
+item.raw_kebab.name=Raw Kebab
+item.bread_slice.name=Bread Slice
+item.flour.name=Flour
+item.salt.name=Salt
+item.dough.name=Dough
+item.oil.name=Oil
+
+//Tab
+item.tab.name=Tab

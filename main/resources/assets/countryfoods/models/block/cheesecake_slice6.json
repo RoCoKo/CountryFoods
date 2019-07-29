@@ -1,0 +1,22 @@
+{
+    "textures": {
+        "particle": "countryfoods:blocks/cheesecake_side",
+        "bottom": "countryfoods:blocks/cheesecake_bottom",
+        "top": "countryfoods:blocks/cheesecake_top",
+        "side": "countryfoods:blocks/cheesecake_side",
+        "inside": "countryfoods:blocks/cheesecake_inner"
+    },
+    "elements": [
+        {   "from": [ 13, 0, 1 ],
+            "to": [ 15, 8, 15 ],
+            "faces": {
+                "down":  { "texture": "#bottom", "cullface": "down" },
+                "up":    { "texture": "#top" },
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#inside" },
+                "east":  { "texture": "#side" }
+            }
+        }
+    ]
+}

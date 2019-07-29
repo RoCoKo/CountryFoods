@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        "PSP",
+        "   "
+    ],
+    "key": {
+        "P": {
+            "item": "minecraft:planks",
+            "data": 32767
+        },
+        "S": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "countryfoods:rolling_pin",
+        "count": 1
+    }
+}

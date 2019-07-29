@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "countryfoods:rolling_pin",
+            "data": 32767
+        },
+        {
+            "item": "minecraft:water_bucket"
+        },
+        {
+            "item": "countryfoods:salt",
+            "data": 32767
+        },
+        {
+            "item": "countryfoods:flour",
+            "data": 32767
+        },
+        {
+            "item": "countryfoods:flour",
+            "data": 32767
+        }
+    ],
+    "result": {
+        "item": "countryfoods:dough",
+        "count": 1
+    }
+}

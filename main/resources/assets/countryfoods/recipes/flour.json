@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "countryfoods:mortar_and_pestle",
+            "data": 32767
+        },
+        {
+            "item": "minecraft:wheat"
+        },
+        {
+            "item": "minecraft:wheat"
+        }
+    ],
+    "result": {
+        "item": "countryfoods:flour",
+        "count": 1
+    }
+}

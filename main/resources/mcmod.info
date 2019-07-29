@@ -1,0 +1,16 @@
+[
+{
+  "modid": "countryfoods",
+  "name": "Country Foods",
+  "description": "A mod that adds meals from different countries.",
+  "version": "0.1",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Coder: RoCoKo - Artist: Emirhangg"],
+  "credits": "Modding tutorials on the internet :D",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

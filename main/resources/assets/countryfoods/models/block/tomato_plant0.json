@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": 
+  {
+  "crop": "countryfoods:blocks/tomato_plant0"
+  }
+}

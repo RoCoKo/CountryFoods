@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BBB",
+        "TST",
+        "BBB"
+    ],
+    "key": {
+        "B": {
+            "item": "countryfoods:raw_beef_slice"
+        },
+        "T": {
+            "item": "countryfoods:salt"
+        },
+        "S": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "countryfoods:raw_kebab",
+        "count": 1
+    }
+}
