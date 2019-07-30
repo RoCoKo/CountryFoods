@@ -41,6 +41,7 @@ public class ModItems
 	public static final Item KEBAB = new Kebab("kebab", 12, 15f, false);
 	public static final Item HAMBURGER = new Hamburger("hamburger", 12, 17f, false);
 	public static final Item BAKLAVA = new Baklava("baklava", 8, 12f, false);
+	public static final Item SUSHI = new Sushi("sushi", 8, 12f, false);
 	
 	//Tools
 	public static final Item KNIFE = new Knife("knife");
