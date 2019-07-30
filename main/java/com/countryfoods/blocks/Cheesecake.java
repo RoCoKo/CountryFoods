@@ -5,7 +5,6 @@ import com.countryfoods.Main;
 import com.countryfoods.init.ModBlocks;
 import com.countryfoods.init.ModItems;
 import com.countryfoods.util.IHasModel;
-
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockCake;
 import net.minecraft.block.SoundType;
@@ -46,7 +45,6 @@ public class Cheesecake extends BlockBase
 		this.setSoundType(SoundType.CLOTH);
 		this.setCreativeTab(Main.countryfoodstab);
         this.setDefaultState(this.blockState.getBaseState().withProperty(BITES, Integer.valueOf(0)));
-		ModBlocks.BLOCKS.add(this);
 	}
 	
 	public static final PropertyInteger BITES = PropertyInteger.create("bites", 0, 6);
