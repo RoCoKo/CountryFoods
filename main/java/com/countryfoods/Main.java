@@ -7,7 +7,6 @@ import com.countryfoods.proxy.CommonProxy;
 import com.countryfoods.tabs.CountryFoodsTab;
 import com.countryfoods.util.Reference;
 import com.countryfoods.world.ModWorldGen;
-
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -36,10 +35,6 @@ public class Main
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
 	public static CommonProxy proxy;
 	
-	@Mod.EventBusSubscriber
-	public static class RegistrationHandler 
-	{
-	
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event)
 	{
@@ -58,6 +53,5 @@ public class Main
 	public static void Postinit(FMLPostInitializationEvent event)
 	{
 		
-	}
 	}
 }
