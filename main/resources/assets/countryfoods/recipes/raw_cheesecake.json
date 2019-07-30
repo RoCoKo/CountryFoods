@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " C ",
+        "FEF",
+        " S "
+    ],
+    "key": {
+        "C": {
+            "item": "countryfoods:cheese",
+            "data": 32767
+        },
+        "F": {
+            "item": "countryfoods:flour",
+            "data": 32767
+        },
+        "E": {
+            "item": "minecraft:egg"
+        },
+        "S": {
+            "item": "minecraft:sugar"
+        }
+    },
+    "result": {
+        "item": "countryfoods:raw_cheesecake",
+        "count": 1
+    }
+}

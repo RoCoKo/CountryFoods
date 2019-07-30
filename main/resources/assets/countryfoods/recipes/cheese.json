@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " S ",
+        " M ",
+        " B "
+    ],
+    "key": {
+        "S": {
+            "item": "countryfoods:salt"
+        },
+        "M": {
+            "item": "minecraft:milk_bucket"
+        },
+        "B": {
+            "item": "minecraft:bowl"
+        }
+    },
+    "result": {
+        "item": "countryfoods:cheese",
+        "count": 2
+    }
+}

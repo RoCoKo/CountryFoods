@@ -2,14 +2,14 @@
 {
   "modid": "countryfoods",
   "name": "Country Foods",
-  "description": "A mod that adds meals from different countries.",
-  "version": "0.1",
+  "description": "A mod that adds meals from various countries.",
+  "version": "1.0",
   "mcversion": "1.12.2",
-  "url": "",
+  "url": "https://github.com/RoCoKo/CountryFoods",
   "updateUrl": "",
   "authorList": ["Coder: RoCoKo - Artist: Emirhangg"],
   "credits": "Modding tutorials on the internet :D",
-  "logoFile": "",
+  "logoFile": "/assets/countryfoods/textures/logo.png",
   "screenshots": [],
   "dependencies": []
 }

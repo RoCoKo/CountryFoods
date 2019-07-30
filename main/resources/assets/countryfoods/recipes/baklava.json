@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "countryfoods:syrupless_baklava"
+        },
+        {
+            "item": "countryfoods:hot_syrup"
+        }
+    ],
+    "result": {
+        "item": "countryfoods:baklava",
+        "count": 1
+    }
+}

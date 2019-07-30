@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        "EDO",
+        "   "
+    ],
+    "key": {
+        "D": {
+            "item": "countryfoods:dough"
+        },
+        "O": {
+            "item": "countryfoods:oil"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        }
+    },
+    "result": {
+        "item": "countryfoods:raw_baklava",
+        "count": 1
+    }
+}

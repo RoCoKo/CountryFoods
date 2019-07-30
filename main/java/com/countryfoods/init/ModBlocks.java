@@ -8,7 +8,7 @@ import com.countryfoods.blocks.LettucePlant;
 import com.countryfoods.blocks.SaltBlock;
 import com.countryfoods.blocks.SaltOre;
 import com.countryfoods.blocks.TomatoPlant;
-import com.countryfoods.items.foodmaterials.Salt;
+import com.countryfoods.items.foods.Salt;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -28,5 +28,5 @@ public class ModBlocks
 	public static final Block LETTUCE_PLANT = new LettucePlant("lettuce_plant");
 	
 	//Cake
-	public static final Block CHEESECAKE = new Cheesecake("cheesecake", 4, 3);
+	public static final Block CHEESECAKE = new Cheesecake("cheesecake", 2, 0.4f);
 }

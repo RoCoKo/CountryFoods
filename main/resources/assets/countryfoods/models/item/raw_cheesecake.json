@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "textures": 
   {
-  "layer0": "countryfoods:items/cheesecake"
+  "layer0": "countryfoods:items/raw_cheesecake"
   }
 }

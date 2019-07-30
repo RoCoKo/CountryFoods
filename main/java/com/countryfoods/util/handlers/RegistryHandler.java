@@ -2,6 +2,7 @@ package com.countryfoods.util.handlers;
 
 import com.countryfoods.init.ModBlocks;
 import com.countryfoods.init.ModItems;
+import com.countryfoods.init.ModRecipes;
 import com.countryfoods.util.IHasModel;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -13,6 +14,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 @Mod.EventBusSubscriber
 public class RegistryHandler 
 {
+	
     @SubscribeEvent
     public static void onItemRegister(RegistryEvent.Register<Item> event)
     {
