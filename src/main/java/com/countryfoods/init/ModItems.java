@@ -46,18 +46,18 @@ public class ModItems
 	
 	public static final Item LOGO = new Logo("logo");	
 
-	public static final Item KEBAB = new Kebab("kebab", 12, 1.2f, false);
+	public static final Item KEBAB = new Kebab("kebab", 12, 0.83f, false);
 	public static final Item RAW_KEBAB = new RawKebab("raw_kebab", 4, 1f, false);
-	public static final Item HAMBURGER = new Hamburger("hamburger", 12, 1.2f, false);
-	public static final Item SUSHI = new Sushi("sushi", 6, 0.7f, false);
+	public static final Item HAMBURGER = new Hamburger("hamburger", 12, 0.83f, false);
+	public static final Item SUSHI = new Sushi("sushi", 6, 0.67f, false);
 	public static final Item PIZZA = new Pizza("pizza", 8, 0.5f, false);
 	public static final Item RAW_PIZZA = new RawPizza("raw_pizza", 4, 0.5f, false);
-	public static final Item BAKLAVA = new Baklava("baklava", 8, 12f, false);
-	public static final Item SYRUPLESS_BAKLAVA = new SyruplessBaklava("syrupless_baklava", 4, 4f, false);
-	public static final Item RAW_BAKLAVA = new RawBaklava("raw_baklava", 2, 2f, false);
+	public static final Item BAKLAVA = new Baklava("baklava", 8, 0.83f, false);
+	public static final Item SYRUPLESS_BAKLAVA = new SyruplessBaklava("syrupless_baklava", 4, 0.5f, false);
+	public static final Item RAW_BAKLAVA = new RawBaklava("raw_baklava", 2, 0.5f, false);
 	public static final Item RAW_CHEESECAKE = new RawCheesecake("raw_cheesecake");
-	public static final Item MOCHI = new Mochi("mochi", 4, 4f, false);
-	public static final Item TIRAMISU = new Tiramisu("tiramisu", 8, 12f, false);
+	public static final Item MOCHI = new Mochi("mochi", 4, 1f, false);
+	public static final Item TIRAMISU = new Tiramisu("tiramisu", 8, 0.83f, false);
 	
 	public static final Item KNIFE = new Knife("knife");
 	public static final Item ROLLING_PIN = new RollingPin("rolling_pin");
@@ -66,9 +66,9 @@ public class ModItems
 
 	public static final Item TOMATO = new Tomato("tomato", 2, 1f, false);
 	public static final Item LETTUCE = new Lettuce("lettuce", 2, 1f, false);
-	public static final Item CHEESE = new Cheese("cheese", 2, 2f, false);
+	public static final Item CHEESE = new Cheese("cheese", 2, 1f, false);
 	public static final Item SEAWEED = new Seaweed("seaweed");
-	public static final Item BISCUIT = new Biscuit("biscuit", 2, 4f, false);
+	public static final Item BISCUIT = new Biscuit("biscuit", 2, 1.5f, false);
 	public static final Item RICE = new Rice("rice");
 	public static final Item FLOUR = new Flour("flour");
 	public static final Item DOUGH = new Dough("dough");
