@@ -1,0 +1,56 @@
+//CreativeTab
+itemGroup.countryfoodstab=Country Foods
+item.tab.name=Tab
+
+//Foods
+item.kebab.name=Kebap
+item.raw_kebab.name=Çiğ Kebap
+item.hamburger.name=Hamburger
+item.sushi.name=Suşi
+item.pizza.name=Pizza
+item.raw_pizza.name=Çiğ Pizza
+item.baklava.name=Baklava
+item.syrupless_baklava.name=Şerbetsiz Baklava
+item.raw_baklava.name=Çiğ Baklava
+tile.cheesecake.name=Cheesecake
+item.raw_cheesecake.name=Çiğ Cheesecake
+item.mochi.name=Mochi
+item.tiramisu.name=Tiramisu
+
+//Other Foods
+item.tomato.name=Domates
+item.lettuce.name=Marul
+item.cheese.name=Peynir
+item.seaweed.name=Deniz Yosunu
+item.biscuit.name=Bisküvi
+item.rice.name=Pirinç
+item.flour.name=Un
+item.dough.name=Hamur
+item.salt.name=Tuz
+item.oil.name=Sıvı Yağ
+item.milk.name=Süt
+item.hot_syrup.name=Sıcak Şerbet
+item.syrup.name=Şerbet
+item.bread_slice.name=Ekmek Dilimi
+item.raw_beef_slice.name=Çiğ İnek Eti Dilimi
+item.raw_porkchop_slice.name=Çiğ Domuz Eti Dilimi
+
+//Tools
+item.knife.name=Bıçak
+item.rolling_pin.name=Merdane
+item.mortar_and_pestle.name=Havan
+item.mixing_bowl.name=Karıştırma Kabı
+
+//Seeds
+item.tomato_seeds.name=Domates Tohumu
+item.lettuce_seeds.name=Marul Tohumu
+item.rice_seeds.name=Pirinç Tohumu
+
+//Plants
+tile.tomato.name=Domates
+tile.lettuce.name=Marul
+tile.rice.name=Pirinç
+
+//Blocks
+tile.salt_block.name=Tuz Bloğu
+tile.salt_ore.name=Tuz Cevheri
