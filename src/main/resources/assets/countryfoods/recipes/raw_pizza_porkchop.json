@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BBB",
+        "TDC",
+        "   "
+    ],
+    "key": {
+        "D": {
+            "item": "countryfoods:dough"
+        },
+        "B": {
+            "item": "countryfoods:raw_porkchop_slice"
+        },
+        "T": {
+            "item": "countryfoods:tomato"
+        },
+        "C": {
+            "item": "countryfoods:cheese"
+        }
+    },
+    "result": {
+        "item": "countryfoods:raw_pizza",
+        "count": 1
+    }
+}

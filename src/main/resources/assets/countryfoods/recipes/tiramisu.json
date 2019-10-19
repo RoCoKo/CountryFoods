@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SME",
+        "BXB"
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:sugar"
+        },
+        "M": {
+            "item": "countryfoods:milk"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        },
+        "B": {
+            "item": "countryfoods:biscuit"
+        },
+        "X": {
+            "item": "countryfoods:mixing_bowl",
+            "data": 32767
+        }
+    },
+    "result": {
+        "item": "countryfoods:tiramisu",
+        "count": 1
+    }
+}

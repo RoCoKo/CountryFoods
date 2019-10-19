@@ -3,7 +3,6 @@ package com.countryfoods.items.logo;
 import com.countryfoods.Main;
 import com.countryfoods.init.ModItems;
 import com.countryfoods.util.IHasModel;
-
 import net.minecraft.item.Item;
 
 public class Logo extends Item implements IHasModel 

@@ -5,7 +5,6 @@ import java.util.jar.Attributes.Name;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.item.EntityFallingBlock;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.EnumParticleTypes;
@@ -69,7 +68,7 @@ public class CustomBlockFalling extends BlockBase
 
                 if (blockpos.getY() > 0)
                 {
-                    worldIn.setBlockState(blockpos.up(), state); //Forge: Fix loss of state information during world gen.
+                    worldIn.setBlockState(blockpos.up(), state);
                 }
             }
         }

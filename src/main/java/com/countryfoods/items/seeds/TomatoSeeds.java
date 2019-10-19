@@ -1,10 +1,15 @@
 package com.countryfoods.items.seeds;
 
+import java.util.List;
+import javax.annotation.Nullable;
 import com.countryfoods.Main;
 import com.countryfoods.init.ModBlocks;
 import com.countryfoods.init.ModItems;
 import com.countryfoods.util.IHasModel;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.client.gui.GuiScreen;
+import net.minecraft.client.resources.I18n;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -12,6 +17,7 @@ import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.common.EnumPlantType;
@@ -26,10 +32,12 @@ public class TomatoSeeds extends Item implements IHasModel, IPlantable
        setCreativeTab(Main.countryfoodstab);
        ModItems.ITEMS.add(this);
    }
+    
     @Override
    public void registerModels() {
        Main.proxy.registerItemRenderer(this, 0, "Inventory");
    }
+    
     @Override
    public EnumActionResult onItemUse(EntityPlayer player, World worldIn, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ){
         ItemStack stack = player.getHeldItem(hand);
@@ -45,12 +53,24 @@ public class TomatoSeeds extends Item implements IHasModel, IPlantable
        else
            return EnumActionResult.FAIL;
    }
+    
     @Override
    public EnumPlantType getPlantType(IBlockAccess world, BlockPos pos) {
        return EnumPlantType.Crop;
    }
+    
     @Override
    public IBlockState getPlant(IBlockAccess world, BlockPos pos) {
         return ModBlocks.TOMATO_PLANT.getDefaultState();
    }
+    
+    @Override
+    public void addInformation(ItemStack stack, @Nullable World playerIn, List<String> tooltip, ITooltipFlag advanced)
+    {
+    	 if(GuiScreen.isShiftKeyDown()){
+    		 tooltip.add(TextFormatting.GRAY + I18n.format("Did you know? In 60 seconds, a minute passes.", 0));
+         }else{
+             tooltip.add(TextFormatting.RED + I18n.format("Press SHIFT for more info", 0));
+         }
+    }
 }

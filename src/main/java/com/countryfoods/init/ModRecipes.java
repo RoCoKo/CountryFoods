@@ -11,6 +11,7 @@ public class ModRecipes
 	{
 		GameRegistry.addSmelting(ModItems.RAW_KEBAB, new ItemStack(ModItems.KEBAB, 1), 0.35f);
 		GameRegistry.addSmelting(ModItems.RAW_CHEESECAKE, new ItemStack(ModBlocks.CHEESECAKE, 1), 0.35f);
+		GameRegistry.addSmelting(ModItems.RAW_PIZZA, new ItemStack(ModItems.PIZZA, 1), 0.35f);
 		GameRegistry.addSmelting(ModItems.RAW_BAKLAVA, new ItemStack(ModItems.SYRUPLESS_BAKLAVA, 1), 0.35f);
 		GameRegistry.addSmelting(ModItems.SYRUP, new ItemStack(ModItems.HOT_SYRUP, 1), 0.35f);
 	}

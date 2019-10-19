@@ -1,6 +1,8 @@
 package com.countryfoods.blocks;
 
+import java.util.List;
 import java.util.Random;
+import javax.annotation.Nullable;
 import com.countryfoods.Main;
 import com.countryfoods.init.ModBlocks;
 import com.countryfoods.init.ModItems;
@@ -14,6 +16,9 @@ import net.minecraft.block.properties.PropertyInteger;
 import net.minecraft.block.state.BlockFaceShape;
 import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.client.gui.GuiScreen;
+import net.minecraft.client.resources.I18n;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
@@ -25,6 +30,7 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
@@ -170,5 +176,15 @@ public boolean hasComparatorInputOverride(IBlockState state)
 public BlockFaceShape getBlockFaceShape(IBlockAccess worldIn, IBlockState state, BlockPos pos, EnumFacing face)
 {
     return BlockFaceShape.UNDEFINED;
+}
+
+@Override
+public void addInformation(ItemStack stack, @Nullable World playerIn, List<String> tooltip, ITooltipFlag advanced)
+{
+	 if(GuiScreen.isShiftKeyDown()){
+		 tooltip.add(TextFormatting.GRAY + I18n.format("The American Cheesecake was found in 19th century. ", 0));
+     }else{
+         tooltip.add(TextFormatting.RED + I18n.format("Press SHIFT for more info", 0));
+     }
 }
 }

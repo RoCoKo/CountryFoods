@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:milk_bucket",
+            "data": 32767
+        }
+    ],
+    "result": {
+        "item": "countryfoods:milk",
+        "count": 2
+    }
+}

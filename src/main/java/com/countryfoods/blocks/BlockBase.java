@@ -4,12 +4,11 @@ import com.countryfoods.Main;
 import com.countryfoods.init.ModBlocks;
 import com.countryfoods.init.ModItems;
 import com.countryfoods.util.IHasModel;
-
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.world.biome.Biome;
 
 public class BlockBase extends Block implements IHasModel
 {

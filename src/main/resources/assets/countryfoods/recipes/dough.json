@@ -6,19 +6,20 @@
             "data": 32767
         },
         {
-            "item": "minecraft:water_bucket"
+        "type": "minecraft:item_nbt",
+        "item": "minecraft:potion",
+        "nbt": {
+          "Potion": "minecraft:water"
+        }
         },
         {
-            "item": "countryfoods:salt",
-            "data": 32767
+            "item": "countryfoods:salt"
         },
         {
-            "item": "countryfoods:flour",
-            "data": 32767
+            "item": "countryfoods:flour"
         },
         {
-            "item": "countryfoods:flour",
-            "data": 32767
+            "item": "countryfoods:flour"
         }
     ],
     "result": {

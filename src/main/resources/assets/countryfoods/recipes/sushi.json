@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " S ",
+        "RFR",
+        " S "
+    ],
+    "key": {
+        "F": {
+            "item": "minecraft:fish",
+            "data": 32767
+        },
+        "R": {
+            "item": "countryfoods:rice"
+        },
+        "S": {
+            "item": "countryfoods:seaweed"
+        }
+    },
+    "result": {
+        "item": "countryfoods:sushi",
+        "count": 1
+    }
+}

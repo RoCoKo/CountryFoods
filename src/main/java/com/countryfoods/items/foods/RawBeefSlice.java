@@ -1,11 +1,17 @@
 package com.countryfoods.items.foods;
 
+import java.util.List;
+import javax.annotation.Nullable;
 import com.countryfoods.Main;
 import com.countryfoods.init.ModItems;
 import com.countryfoods.util.IHasModel;
-
-import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.client.gui.GuiScreen;
+import net.minecraft.client.resources.I18n;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.item.ItemFood;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.text.TextFormatting;
+import net.minecraft.world.World;
 
 public class RawBeefSlice extends ItemFood implements IHasModel 
 {
@@ -23,4 +29,14 @@ public class RawBeefSlice extends ItemFood implements IHasModel
 	{
 		Main.proxy.registerItemRenderer(this, 0, "inventory");
 	}
+	
+    @Override
+    public void addInformation(ItemStack stack, @Nullable World playerIn, List<String> tooltip, ITooltipFlag advanced)
+    {
+    	 if(GuiScreen.isShiftKeyDown()){
+    		 tooltip.add(TextFormatting.GRAY + I18n.format("Only real men can eat this!", 0));
+         }else{
+             tooltip.add(TextFormatting.RED + I18n.format("Press SHIFT for more info", 0));
+         }
+    }
 }

@@ -1,18 +1,20 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " C ",
-        "FEF",
-        " S "
+        "FCF",
+        "EMS",
+        "   "
     ],
     "key": {
-        "C": {
-            "item": "countryfoods:cheese",
+        "M": {
+            "item": "countryfoods:mixing_bowl",
             "data": 32767
         },
+        "C": {
+            "item": "countryfoods:cheese"
+        },
         "F": {
-            "item": "countryfoods:flour",
-            "data": 32767
+            "item": "countryfoods:flour"
         },
         "E": {
             "item": "minecraft:egg"

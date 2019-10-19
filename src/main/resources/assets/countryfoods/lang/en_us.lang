@@ -1,43 +1,56 @@
 //CreativeTab
 itemGroup.countryfoodstab=Country Foods
+item.tab.name=Tab
 
 //Foods
 item.kebab.name=Kebab
+item.raw_kebab.name=Raw Kebab
 item.hamburger.name=Hamburger
-item.tomato.name=Tomato
-item.lettuce.name=Lettuce
-tile.cheesecake.name=Cheesecake
+item.sushi.name=Sushi
+item.pizza.name=Pizza
+item.raw_pizza.name=Raw Pizza
 item.baklava.name=Baklava
 item.syrupless_baklava.name=Syrupless Baklava
 item.raw_baklava.name=Raw Baklava
-item.raw_beef_slice.name=Raw Beef Slice
-item.raw_kebab.name=Raw Kebab
+tile.cheesecake.name=Cheesecake
 item.raw_cheesecake.name=Raw Cheesecake
+item.mochi.name=Mochi
+item.tiramisu.name=Tiramisu
+
+//Other Foods
+item.tomato.name=Tomato
+item.lettuce.name=Lettuce
 item.cheese.name=Cheese
-item.bread_slice.name=Bread Slice
+item.seaweed.name=Seaweed
+item.biscuit.name=Biscuit
+item.rice.name=Rice
 item.flour.name=Flour
-item.salt.name=Salt
 item.dough.name=Dough
+item.salt.name=Salt
 item.oil.name=Oil
+item.milk.name=Milk
 item.hot_syrup.name=Hot Syrup
 item.syrup.name=Syrup
-
-//Blocks
-tile.salt_block.name=Salt Block
-tile.salt_ore.name=Salt Ore
-
-//Plants
-tile.tomato.name=Tomato
-tile.lettuce.name=Lettuce
-
-//Seeds
-item.tomato_seeds.name=Tomato Seeds
-item.lettuce_seeds.name=Lettuce Seeds
+item.bread_slice.name=Bread Slice
+item.raw_beef_slice.name=Raw Beef Slice
+item.raw_porkchop_slice.name=Raw Porkchop Slice
 
 //Tools
 item.knife.name=Knife
 item.rolling_pin.name=Rolling Pin
 item.mortar_and_pestle.name=Mortar and Pestle
+item.mixing_bowl.name=Mixing Bowl
 
-//Tab
-item.tab.name=Tab
+//Seeds
+item.tomato_seeds.name=Tomato Seeds
+item.lettuce_seeds.name=Lettuce Seeds
+item.rice_seeds.name=Rice Seeds
+
+//Plants
+tile.tomato.name=Tomato
+tile.lettuce.name=Lettuce
+tile.rice.name=Rice
+
+//Blocks
+tile.salt_block.name=Salt Block
+tile.salt_ore.name=Salt Ore

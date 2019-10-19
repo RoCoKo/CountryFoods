@@ -2,8 +2,7 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "countryfoods:mortar_and_pestle",
-            "data": 32767
+            "item": "countryfoods:mortar_and_pestle"
         },
         {
             "item": "minecraft:wheat"

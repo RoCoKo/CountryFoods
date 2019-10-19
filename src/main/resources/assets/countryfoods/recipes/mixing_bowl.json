@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BSB",
+        " B "
+    ],
+    "key": {
+        "B": {
+            "item": "minecraft:brick"
+        },
+        "S": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "countryfoods:mixing_bowl",
+        "count": 1
+    }
+}

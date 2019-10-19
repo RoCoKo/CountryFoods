@@ -41,6 +41,7 @@ public class Main
 		GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
 		MinecraftForge.addGrassSeed(new ItemStack(ModItems.TOMATO_SEEDS), 1);
 		MinecraftForge.addGrassSeed(new ItemStack(ModItems.LETTUCE_SEEDS), 1);
+		MinecraftForge.addGrassSeed(new ItemStack(ModItems.RICE_SEEDS), 1);
 	}	
 	
 	@EventHandler

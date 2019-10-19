@@ -1,16 +1,15 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " S ",
-        " B ",
-        "   "
+        "S",
+        "B"
     ],
     "key": {
-        "B": {
-            "item": "minecraft:bowl"
-        },
         "S": {
             "item": "minecraft:stick"
+        },
+        "B": {
+            "item": "minecraft:bowl"
         }
     },
     "result": {

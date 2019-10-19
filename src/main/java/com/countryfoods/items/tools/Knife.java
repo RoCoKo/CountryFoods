@@ -1,13 +1,11 @@
 package com.countryfoods.items.tools;
 
 import java.util.List;
-
 import javax.annotation.Nullable;
-
 import com.countryfoods.Main;
 import com.countryfoods.init.ModItems;
 import com.countryfoods.util.IHasModel;
-
+import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.item.Item;
@@ -23,7 +21,7 @@ public class Knife extends Item implements IHasModel
         setRegistryName(name);
         setCreativeTab(Main.countryfoodstab);
         setNoRepair();
-        setMaxDamage(25);
+        setMaxDamage(250);
         setMaxStackSize(1);
         ModItems.ITEMS.add(this);
 	}
@@ -49,6 +47,11 @@ public class Knife extends Item implements IHasModel
     @Override
     public void addInformation(ItemStack stack, @Nullable World playerIn, List<String> tooltip, ITooltipFlag advanced)
     {
-    	tooltip.add(TextFormatting.RED + I18n.format("bune la bole bicak mi olur", 0));
+    	 if(GuiScreen.isShiftKeyDown()){
+    		 tooltip.add(TextFormatting.GRAY + I18n.format("Hey! Don't kill her please!", 0));
+    		 tooltip.add(TextFormatting.GRAY + I18n.format("Oh, you are just going to slice some breads. Cool!", 0));
+         }else{
+             tooltip.add(TextFormatting.RED + I18n.format("Press SHIFT for more info", 0));
+         }
 	}
 }

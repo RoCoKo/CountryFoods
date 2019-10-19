@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SP",
+        "MR"
+    ],
+   "key": {
+   "P": [
+        {
+        "type": "minecraft:item_nbt",
+        "item": "minecraft:potion",
+        "nbt": {
+          "Potion": "minecraft:water"
+        }
+        }
+        ],
+        "S": {
+            "item": "minecraft:sugar"
+        },
+        "M": {
+            "item": "countryfoods:mixing_bowl",
+            "data": 32767
+        },
+        "R": {
+            "item": "countryfoods:rice"
+        }
+    },
+    "result": {
+        "item": "countryfoods:mochi",
+        "count": 1
+    }
+}

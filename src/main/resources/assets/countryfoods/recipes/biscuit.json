@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "countryfoods:mixing_bowl",
+            "data": 32767
+        },
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "item": "minecraft:egg"
+        },
+        {
+            "item": "countryfoods:milk"
+        },
+        {
+            "item": "countryfoods:flour"
+        }
+    ],
+    "result": {
+        "item": "countryfoods:biscuit",
+        "count": 4
+    }
+}
