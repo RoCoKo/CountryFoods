@@ -46,12 +46,12 @@ public class ModItems
 	
 	public static final Item LOGO = new Logo("logo");	
 
-	public static final Item KEBAB = new Kebab("kebab", 12, 15f, false);
-	public static final Item RAW_KEBAB = new RawKebab("raw_kebab", 4, 4f, false);
-	public static final Item HAMBURGER = new Hamburger("hamburger", 12, 17f, false);
-	public static final Item SUSHI = new Sushi("sushi", 4, 4f, false);
-	public static final Item PIZZA = new Pizza("pizza", 6, 4f, false);
-	public static final Item RAW_PIZZA = new RawPizza("raw_pizza", 3, 2f, false);
+	public static final Item KEBAB = new Kebab("kebab", 12, 1.2f, false);
+	public static final Item RAW_KEBAB = new RawKebab("raw_kebab", 4, 1f, false);
+	public static final Item HAMBURGER = new Hamburger("hamburger", 12, 1.2f, false);
+	public static final Item SUSHI = new Sushi("sushi", 6, 0.7f, false);
+	public static final Item PIZZA = new Pizza("pizza", 8, 0.5f, false);
+	public static final Item RAW_PIZZA = new RawPizza("raw_pizza", 4, 0.5f, false);
 	public static final Item BAKLAVA = new Baklava("baklava", 8, 12f, false);
 	public static final Item SYRUPLESS_BAKLAVA = new SyruplessBaklava("syrupless_baklava", 4, 4f, false);
 	public static final Item RAW_BAKLAVA = new RawBaklava("raw_baklava", 2, 2f, false);

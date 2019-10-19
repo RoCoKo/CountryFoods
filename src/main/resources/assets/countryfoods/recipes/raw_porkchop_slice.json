@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "countryfoods:knife",
+            "data": 32767
+        },
+        {
+            "item": "minecraft:porkchop"
+        }
+    ],
+    "result": {
+        "item": "countryfoods:raw_porkchop_slice",
+        "count": 6
+    }
+}

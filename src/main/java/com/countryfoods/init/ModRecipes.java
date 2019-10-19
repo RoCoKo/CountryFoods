@@ -9,6 +9,7 @@ public class ModRecipes
 {
 	public static void init() 
 	{
+		GameRegistry.addSmelting(ModBlocks.SALT_ORE, new ItemStack(ModItems.SALT, 3), 0.35f);
 		GameRegistry.addSmelting(ModItems.RAW_KEBAB, new ItemStack(ModItems.KEBAB, 1), 0.35f);
 		GameRegistry.addSmelting(ModItems.RAW_CHEESECAKE, new ItemStack(ModBlocks.CHEESECAKE, 1), 0.35f);
 		GameRegistry.addSmelting(ModItems.RAW_PIZZA, new ItemStack(ModItems.PIZZA, 1), 0.35f);
